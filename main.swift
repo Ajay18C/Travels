@@ -101,7 +101,6 @@ class BlueBus:Travels,Allfeatures{
   enum Features:String,CaseIterable{
     case chargingPort = "charge port is avaliable"
     case television = "Tv avaliable"
-    case sleapers = "10 seats are sleapers"
     case providePillowAndBeadsheats  = "pillow avaliable"
     case halfTicketAge = "Half ticket for below 6"
   }
@@ -134,7 +133,6 @@ class RedBus:Travels,Allfeatures{
   enum Features:String,CaseIterable{
     case chargingPort = "Charge port is avaliable"
     case television = "Each tv for every one"
-    case sleapers = "15 seats are sleapers"
     case airConditioner = "Ac avaliable"
     case foodService = "food service  avaliable"
     case providePillowAndBeadsheats  = "pillow and beadsheet avaliable"
